@@ -21,6 +21,14 @@ body {
   font-family: system-ui, sans-serif;
   font-size: 81.25%;
   margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(./background_image.png);
+  /* Change background color as needed to match theme: */
+  /* I would average the image in JS but that's a PITA & out of scope */
+  background-color: rgb(48, 48, 48);
+  background-size: cover;
+  background-position: center;
 }
 #oneGoogleBar {
   height: 100%;
@@ -86,7 +94,7 @@ ntp-logo#logo {
   min-height: var(--ntp-logo-height);
 }
 div#logo {
-  background-image: url(./google_logo.svg);
+  /* background-image: url(./google_logo.svg); */
   height: 92px;
   width: 272px;
 }
